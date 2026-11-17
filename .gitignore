@@ -1,0 +1,43 @@
+# Entornos virtuales
+.venv/
+venv/
+ENV/
+env/
+
+# Byte-compiled / optimizados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Variables de entorno y secretos
+.env
+.env.*
+!.env.example
+
+# Archivos subidos / multimedia local
+uploads/
+
+# Base de datos local de desarrollo / SQLite / tests
+*.db
+*.sqlite3
+
+# Archivos y carpetas del sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs y editores
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Tests y cobertura
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Distribución y empaquetado
+dist/
+build/
+*.egg-info/
